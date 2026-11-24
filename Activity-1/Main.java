@@ -43,18 +43,16 @@ public class Main {
 Activity 1 - AI Use Note
 
 Prompt used:
-"Explain what conditions should be checked before deducting
-printing credits from a student's account."
+"What should I check before deducting printing credits?"
 
 Accepted:
-The validation checks for positive page counts and sufficient
-credits before deducting the balance.
+I used the suggestion to check if the page count is positive
+and if the account has enough credits.
 
 Rejected:
-No unnecessary changes to the required class structure or
-additional features.
+I avoided adding features that were not required.
 
 Verification:
-Compared the program's output with the expected results
-provided in the practice handout.
+I ran the program and checked if the output matched
+the expected results in the handout.
 */
