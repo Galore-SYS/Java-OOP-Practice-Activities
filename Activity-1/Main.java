@@ -6,7 +6,7 @@ public class Main {
         PrintAccount mia = new PrintAccount("Mia", 10);
         PrintAccount luis = new PrintAccount("Luis", -4);
 
-        // Display starting credits
+        // Display starting credits for both accounts
         System.out.println("Starting Accounts:");
         System.out.println(mia.getStudentName() + ": " + mia.getCredits());
         System.out.println(luis.getStudentName() + ": " + luis.getCredits());
@@ -30,7 +30,7 @@ public class Main {
         System.out.println("\nMia adds 4 credits: "
                 + mia.addCredits(4));
 
-        // Display final account balances
+        // Display final account balances for both accounts
         System.out.println("\nFinal Accounts:");
         System.out.println(mia.getStudentName() + ": " + mia.getCredits());
         System.out.println(luis.getStudentName() + ": " + luis.getCredits());
